@@ -7,9 +7,10 @@ void Swap(int *a, int *b)
 	*b = tmp;
 }
 
-int flag = 1;
+
 void ImprovedBubbleSort(int *arr, int len)
 {
+	int flag = 1;
 	for (int j = len - 1; j > 0 && flag; j--)
 	{
 		flag = 0;
