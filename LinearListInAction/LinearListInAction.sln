@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_链表划分", "04_链�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_单链表公共节点问题", "05_单链表公共节点问题\05_单链表公共节点问题.vcxproj", "{CA6CD505-1330-482D-A01A-6B704FECFE7E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_拓扑排序", "06_拓扑排序\06_拓扑排序.vcxproj", "{0D347D5F-1C83-408A-AFEE-0A7BEC290977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{CA6CD505-1330-482D-A01A-6B704FECFE7E}.Debug|Win32.Build.0 = Debug|Win32
 		{CA6CD505-1330-482D-A01A-6B704FECFE7E}.Release|Win32.ActiveCfg = Release|Win32
 		{CA6CD505-1330-482D-A01A-6B704FECFE7E}.Release|Win32.Build.0 = Release|Win32
+		{0D347D5F-1C83-408A-AFEE-0A7BEC290977}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D347D5F-1C83-408A-AFEE-0A7BEC290977}.Debug|Win32.Build.0 = Debug|Win32
+		{0D347D5F-1C83-408A-AFEE-0A7BEC290977}.Release|Win32.ActiveCfg = Release|Win32
+		{0D347D5F-1C83-408A-AFEE-0A7BEC290977}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
