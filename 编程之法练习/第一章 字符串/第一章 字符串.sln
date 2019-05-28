@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 字符串的旋转", "第一章 字符串\第一章 字符串.vcxproj", "{48FD3CF6-91CB-4545-A426-540A17E2C45A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 字符串的包含", "02 字符串的包含\02 字符串的包含.vcxproj", "{4E573DF4-6C90-4D48-A695-8E2879DA7213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48FD3CF6-91CB-4545-A426-540A17E2C45A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48FD3CF6-91CB-4545-A426-540A17E2C45A}.Debug|Win32.Build.0 = Debug|Win32
+		{48FD3CF6-91CB-4545-A426-540A17E2C45A}.Release|Win32.ActiveCfg = Release|Win32
+		{48FD3CF6-91CB-4545-A426-540A17E2C45A}.Release|Win32.Build.0 = Release|Win32
+		{4E573DF4-6C90-4D48-A695-8E2879DA7213}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E573DF4-6C90-4D48-A695-8E2879DA7213}.Debug|Win32.Build.0 = Debug|Win32
+		{4E573DF4-6C90-4D48-A695-8E2879DA7213}.Release|Win32.ActiveCfg = Release|Win32
+		{4E573DF4-6C90-4D48-A695-8E2879DA7213}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
