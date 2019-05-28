@@ -22,6 +22,9 @@ void DestroyQueue(Queue *queue){
 	{
 		PopQueue(queue);
 	}
+	queue->size = 0;
+	free(queue);
+	
 }
 
 // ²åÈëÔªËØ

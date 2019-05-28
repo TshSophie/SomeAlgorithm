@@ -40,7 +40,8 @@ void topoLogic(int *toposort){
 		toposort[cnt++] = cur;		
 		for (int i = 1; i <= v; i++)
 		{
-			if (map[cur][i] != 0){ 
+			if (map[cur][i] != 0)
+			{ 
 				indegree[i]--;  // 与零度点的有连接的所有点的入度减去1
 				if (indegree[i]==0)
 				{

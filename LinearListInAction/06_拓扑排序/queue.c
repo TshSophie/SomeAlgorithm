@@ -22,6 +22,8 @@ void DestroyQueue(Queue *queue){
 	{
 		PopQueue(queue);
 	}
+	queue->size = 0;
+	free(queue);
 }
 
 // ²åÈëÔªËØ
@@ -30,7 +32,7 @@ int PushQueue(Queue *queue, void *data){
 	newNode->data = data;
 	newNode->next = NULL;
 
-	if (queue->end == NULL)
+	if (queue->size==0)
 	{
 		queue->end = newNode;
 		queue->head = newNode;
@@ -62,6 +64,8 @@ void PopQueue(Queue *queue){
 	if (queue->size == 1)
 	{
 		free(queue->head);
+		queue->head = NULL;
+		queue->end = NULL;
 		queue->size--;
 		return;
 	}
