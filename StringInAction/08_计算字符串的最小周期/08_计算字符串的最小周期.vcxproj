@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C60E6ED9-65EF-4F38-AE5C-CC2FADF9B71A}</ProjectGuid>
+    <ProjectGuid>{517F245C-87B8-4B18-A69D-DD5BFD25833B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My02_LCS最长递增子序列</RootNamespace>
-    <ProjectName>02_LCS最长公共子序列</ProjectName>
+    <RootNamespace>My08_计算字符串的最小周期</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
