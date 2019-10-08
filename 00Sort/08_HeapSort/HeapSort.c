@@ -66,8 +66,7 @@ void HeapSort(int *arr,int start,int end){
 int main(){
 
 	int num[] = { 5, 9, 4, 7, 3, 6, 19, 6, 3 };
-
-	int temp[9];
+	
 
 	// print before sort
 	printf("before sort:\n");
